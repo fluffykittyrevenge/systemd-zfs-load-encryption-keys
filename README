@@ -1,0 +1,21 @@
+# zfs-load-encryption-keys
+Load all ZFS encryption keys with a systemd service on boot
+
+## Installation
+
+### Arch Linux
+You can use the `systemd-zfs-load-encryption-keys` AUR package.
+
+### Linux
+    cd /a/path/to/clone/this/project/into
+    
+    git clone https://github.com/fluffykittyrevenge/systemd-zfs-load-encryption-keys.git ./
+    
+    sudo -i
+    
+    install -m 644 -o root -g root zfs-load-encryption-keys@.service /etc/systemd/system
+    
+    systemctl daemon-reload
+    systemctl enable --now zpool-scrub@tank.timer
+    
+    exit
