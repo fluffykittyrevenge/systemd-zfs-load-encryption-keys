@@ -1,5 +1,5 @@
 # Maintainer: Ricky Payne <fluffy.kitty.revenge@gmail.com>
-pkgname=systemd-zpool-scrub
+pkgname=systemd-zfs-load-encryption-keys
 pkgver=1.0
 pkgrel=1
 pkgdesc="Systemd service for automatic ZFS zpool scrubbing"
