@@ -16,6 +16,6 @@ You can use the `systemd-zfs-load-encryption-keys` AUR package.
     install -m 644 -o root -g root zfs-load-encryption-keys@.service /etc/systemd/system
     
     systemctl daemon-reload
-    systemctl enable --now zpool-scrub@tank.timer
+    systemctl enable --now zfs-load-encryption-keys@tank.timer
     
     exit
